@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Running the project
 ### Server
-The server can be run using the `python3` command:
+The server can be run using the `python3` command below. A separate `server.py` file can be found in each of the ML models' folder. Please run the appropriate one for the cluster that is being run.
 ```
 python3 server.py
 ```
