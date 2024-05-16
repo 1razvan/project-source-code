@@ -18,6 +18,7 @@ Port **5555** must be open for ingress and egress UDP/TCP traffic on all machine
 The server IP must be changed for each client in their respective client-_**no**_.py files for each cluster.
 
 ### Datasets
+The CSE-CIC-IDS2018 was deleted as it was very large. Please download it as per the instructions here, https://www.unb.ca/cic/datasets/ids-2018.html. Add the files to the "dataset" folder of Client 2.
 If the original datasets were too large, they were kept in their zip archive form. Unzip them if you wish to run any "making datasets" Jupyter Notebooks.
 
 
