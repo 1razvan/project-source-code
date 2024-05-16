@@ -1,4 +1,5 @@
 # Dissertation Project Source Code
+This project is meant for Linux VMs.
 
 ## Requirements
 This project uses additional Python libraries.
@@ -11,7 +12,13 @@ pip install -r requirements.txt
 
 ## Running the project
 ### Server
-The server can be run using ```python3 server.py```
+The server can be run using 
+```
+python3 server.py
+```
 
 ### Clients
-The clients must be run using the Bash script. ```./client.sh ```
+The clients must be run using the Bash script. 
+```
+./client.sh
+ ```
