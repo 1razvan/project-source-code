@@ -17,6 +17,10 @@ Port **5555** must be open for ingress and egress UDP/TCP traffic on all machine
 ### Changing Server IPs
 The server IP must be changed for each client in their respective client-_**no**_.py files for each cluster.
 
+### Datasets
+If the original datasets were too large, they were kept in their zip archive form. Unzip them if you wish to run any "making datasets" Jupyter Notebooks.
+
+
 ## Running the Project
 ### Server
 The server can be run using the `python3` command below. A separate `server.py` file can be found in each of the ML models' folder. Please run the appropriate one for the cluster that is being run.
