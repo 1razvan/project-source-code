@@ -10,7 +10,10 @@ The libraries can be installed using the following command:
 pip install -r requirements.txt
 ```
 
-## Running the project
+### Opening Ports
+Port **5555** must be open for ingress and egress UDP/TCP traffic on all machines. 
+
+## Running the Project
 ### Server
 The server can be run using the `python3` command below. A separate `server.py` file can be found in each of the ML models' folder. Please run the appropriate one for the cluster that is being run.
 ```
