@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Running the project
 ### Server
-The server can be run using the python3 command:
+The server can be run using the `python3` command:
 ```
 python3 server.py
 ```
