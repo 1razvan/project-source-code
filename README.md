@@ -1,5 +1,5 @@
 # Dissertation Project Source Code
-This project is meant for Linux VMs.
+This project is meant for Linux VMs. It was made for a server and three client machines.
 
 ## Requirements
 ### Python Libraries
@@ -22,13 +22,22 @@ If the original datasets were too large, they were kept in their zip archive for
 
 
 ## Running the Project
-### Server
-The server can be run using the `python3` command below. A separate `server.py` file can be found in each of the ML models' folder. Please run the appropriate one for the cluster that is being run.
+### Archives
+The `code.zip` archive contains the archives of each machine required. Unzip the `code.zip` archive and transfer the other zip files to their assigned machines. Unzip those archives on the target machines.
+
+### Jupyter Notebooks
+The Jupyer Notebooks can be run without any preparation.
+
+### Federated Learning Files
+The federated learning files can be find in the "**FL**" folder for each machine.
+
+#### Server
+The server can be run using the `python3` command below. A separate `server.py` file can be found in each of the federated ML models' folder. Please run the appropriate one for the cluster that is being run.
 ```
 python3 server.py
 ```
 
-### Clients
+#### Clients
 Each client must be run using the Bash script found in each of their respecive FL folders. 
 ```
 ./client.sh
