@@ -12,13 +12,13 @@ pip install -r requirements.txt
 
 ## Running the project
 ### Server
-The server can be run using 
+The server can be run using the python3 command:
 ```
 python3 server.py
 ```
 
 ### Clients
-The clients must be run using the Bash script. 
+Each client must be run using the Bash script found in each of their respecive FL folders. 
 ```
 ./client.sh
  ```
