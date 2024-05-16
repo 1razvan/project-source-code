@@ -2,6 +2,7 @@
 This project is meant for Linux VMs.
 
 ## Requirements
+### Python Libraries
 This project uses additional Python libraries.
 The required Python libraries can be found in the **requirements.txt** file.
 
