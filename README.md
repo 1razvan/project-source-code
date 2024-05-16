@@ -12,7 +12,10 @@ pip install -r requirements.txt
 ```
 
 ### Opening Ports
-Port **5555** must be open for ingress and egress UDP/TCP traffic on all machines. 
+Port **5555** must be open for ingress and egress UDP/TCP traffic on all machines for the SVM cluster. Port **5556** must be opened for the RF cluster.
+
+### Changing Server IPs
+The server IP must be changed for each client in their respective client-_no_.py files for each cluster.
 
 ## Running the Project
 ### Server
