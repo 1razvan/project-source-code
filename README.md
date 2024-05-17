@@ -24,7 +24,7 @@ If the original datasets were too large, they were kept in their zip archive for
 
 ## Running the Project
 ### Archives
-The `code.zip` archive contains the archives of each machine required. Unzip the `code.zip` archive and transfer the other zip files to their assigned machines. Unzip those archives on the target machines.
+The `code.zip` archive contains the archives of each machine required. It is 1.4 GB. Unzip the `code.zip` archive and transfer the other zip files to their assigned machines. Unzip those archives on the target machines.
 
 ### Jupyter Notebooks
 The Jupyer Notebooks can be run without any preparation.
